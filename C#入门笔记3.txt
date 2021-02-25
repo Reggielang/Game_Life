@@ -1,0 +1,51 @@
+1.C# 基本语法
+C# 是一种面向对象的编程语言。在面向对象的程序设计方法中，程序由各种相互交互的对象组成。相同种类的对象通常具有相同的类型，或者说，是在相同的 class 中。
+
+using System;
+namespace RectangleApplication
+{
+    class Rectangle
+    {
+        // 成员变量
+        double length;
+        double width;
+        public void Acceptdetails()
+        {
+            length = 4.5;    
+            width = 3.5;
+        }
+        public double GetArea()
+        {
+            return length * width;
+        }
+        public void Display()
+        {
+            Console.WriteLine("Length: {0}", length);
+            Console.WriteLine("Width: {0}", width);
+            Console.WriteLine("Area: {0}", GetArea());
+        }
+    }
+   
+    class ExecuteRectangle
+    {
+        static void Main(string[] args)
+        {
+            Rectangle r = new Rectangle();
+            r.Acceptdetails();
+            r.Display();
+            Console.ReadLine();
+        }
+    }
+}
+
+using 关键字
+在任何 C# 程序中的第一条语句都是：using System;
+
+class 关键字
+class 关键字用于声明一个类。
+
+C# 中的注释
+在 C# 程序中，多行注释以 /* 开始，并以字符 */ 终止，单行注释是用 '//' 符号表示。
+
+成员变量
+变量是类的属性或数据成员，用于存储数据。在上面的程序中，Rectangle 类有两个成员变量，名为 length 和 width。
