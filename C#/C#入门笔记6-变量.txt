@@ -34,3 +34,7 @@ num = Convert.ToInt32(Console.ReadLine());
 
 C# 中的 Lvalues 和 Rvalues
 
+变量是 lvalue 的，所以可以出现在赋值语句的左边。数值是 rvalue 的，因此不能被赋值，不能出现在赋值语句的左边。
+下面是一个有效的语句：int g = 20;
+
+下面是一个无效的语句，会产生编译时错误：10 = 20;

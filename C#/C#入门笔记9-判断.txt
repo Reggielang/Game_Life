@@ -1,0 +1,92 @@
+C# 判断
+判断结构要求程序员指定一个或多个要评估或测试的条件，以及条件为真时要执行的语句（必需的）和条件为假时要执行的语句（可选的）。
+
+判断语句
+C# 提供了以下类型的判断语句。
+
+语句	描述
+if 语句	一个 if 语句 由一个布尔表达式后跟一个或多个语句组成。
+if...else 语句	一个 if 语句 后可跟一个可选的 else 语句，else 语句在布尔表达式为假时执行。
+嵌套 if 语句	您可以在一个 if 或 else if 语句内使用另一个 if 或 else if 语句。
+switch 语句	一个 switch 语句允许测试一个变量等于多个值时的情况。
+嵌套 switch 语句	您可以在一个 switch 语句内使用另一个 switch 语句。
+
+f 语句的语法：
+if(boolean_expression)
+{
+   /* 如果布尔表达式为真将执行的语句 */
+}
+
+if...else 语句的语法：
+if(boolean_expression)
+{
+   /* 如果布尔表达式为真将执行的语句 */
+}
+else
+{
+  /* 如果布尔表达式为假将执行的语句 */
+}
+
+if...else if...else 语句
+一个 if 语句后可跟一个可选的 else if...else 语句，这可用于测试多种条件。
+
+当使用 if...else if...else 语句时，以下几点需要注意：
+一个 if 后可跟零个或一个 else，它必须在任何一个 else if 之后。
+一个 if 后可跟零个或多个 else if，它们必须在 else 之前。
+一旦某个 else if 匹配成功，其他的 else if 或 else 将不会被测试。
+
+if(boolean_expression 1)
+{
+   /* 当布尔表达式 1 为真时执行 */
+}
+else if( boolean_expression 2)
+{
+   /* 当布尔表达式 2 为真时执行 */
+}
+else if( boolean_expression 3)
+{
+   /* 当布尔表达式 3 为真时执行 */
+}
+else 
+{
+   /* 当上面条件都不为真时执行 */
+}
+
+
+ 嵌套 if 语句的语法：
+if( boolean_expression 1)
+{
+   /* 当布尔表达式 1 为真时执行 */
+   if(boolean_expression 2)
+   {
+      /* 当布尔表达式 2 为真时执行 */
+   }
+}
+
+一个 switch 语句允许测试一个变量等于多个值时的情况。每个值称为一个 case，且被测试的变量会对每个 switch case 进行检查。
+switch 语句的语法：
+
+switch(expression){
+    case constant-expression  :
+       statement(s);
+       break; 
+    case constant-expression  :
+       statement(s);
+       break; 
+  
+    /* 您可以有任意数量的 case 语句 */
+    default : /* 可选的 */
+       statement(s);
+       break; 
+}
+
+switch 语句必须遵循下面的规则：
+switch 语句中的 expression 必须是一个整型或枚举类型，或者是一个 class 类型，其中 class 有一个单一的转换函数将其转换为整型或枚举类型。
+在一个 switch 中可以有任意数量的 case 语句。每个 case 后跟一个要比较的值和一个冒号。
+case 的 constant-expression 必须与 switch 中的变量具有相同的数据类型，且必须是一个常量。
+当被测试的变量等于 case 中的常量时，case 后跟的语句将被执行，直到遇到 break 语句为止。
+当遇到 break 语句时，switch 终止，控制流将跳转到 switch 语句后的下一行。
+不是每一个 case 都需要包含 break。如果 case 语句为空，则可以不包含 break，控制流将会 继续 后续的 case，直到遇到 break 为止。
+C# 不允许从一个开关部分继续执行到下一个开关部分。如果 case 语句中有处理语句，则必须包含 break 或其他跳转语句。
+一个 switch 语句可以有一个可选的 default case，出现在 switch 的结尾。default case 可用于在上面所有 case 都不为真时执行一个任务。default case 中的 break 语句不是必需的。
+C# 不支持从一个 case 标签显式贯穿到另一个 case 标签。如果要使 C# 支持从一个 case 标签显式贯穿到另一个 case 标签，可以使用 goto 一个 switch-case 或 goto default。
