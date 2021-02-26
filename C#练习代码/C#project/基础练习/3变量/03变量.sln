@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03变量", "03变量.csproj", "{67EB4D99-92BF-49BA-B709-87411A42E2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04变量类型", "..\04变量类型\04变量类型.csproj", "{BF85EC0E-4397-4B4B-89B9-468A2616AA94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67EB4D99-92BF-49BA-B709-87411A42E2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67EB4D99-92BF-49BA-B709-87411A42E2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67EB4D99-92BF-49BA-B709-87411A42E2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67EB4D99-92BF-49BA-B709-87411A42E2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF85EC0E-4397-4B4B-89B9-468A2616AA94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF85EC0E-4397-4B4B-89B9-468A2616AA94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF85EC0E-4397-4B4B-89B9-468A2616AA94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF85EC0E-4397-4B4B-89B9-468A2616AA94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\两种类型的装换\bin\Debug\两种类型的装换.exe.config
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\两种类型的装换\bin\Debug\两种类型的装换.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\两种类型的装换\bin\Debug\两种类型的装换.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\两种类型的装换\obj\Debug\两种类型的装换.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\两种类型的装换\obj\Debug\两种类型的装换.pdb

@@ -1,0 +1,5 @@
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\接受用户的输入\bin\Debug\接受用户的输入.exe.config
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\接受用户的输入\bin\Debug\接受用户的输入.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\接受用户的输入\bin\Debug\接受用户的输入.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\接受用户的输入\obj\Debug\接受用户的输入.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\接受用户的输入\obj\Debug\接受用户的输入.pdb

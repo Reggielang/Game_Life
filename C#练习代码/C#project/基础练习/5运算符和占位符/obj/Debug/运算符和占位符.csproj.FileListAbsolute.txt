@@ -1,0 +1,5 @@
+C:\Users\REGGIE\Desktop\C#project\基础练习\运算符和占位符\bin\Debug\运算符和占位符.exe.config
+C:\Users\REGGIE\Desktop\C#project\基础练习\运算符和占位符\bin\Debug\运算符和占位符.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\运算符和占位符\bin\Debug\运算符和占位符.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\运算符和占位符\obj\Debug\运算符和占位符.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\运算符和占位符\obj\Debug\运算符和占位符.pdb

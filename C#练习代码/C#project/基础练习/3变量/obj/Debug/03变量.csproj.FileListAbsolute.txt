@@ -1,0 +1,6 @@
+C:\Users\REGGIE\Desktop\C#project\第一个程序\03变量\bin\Debug\03练习.exe.config
+C:\Users\REGGIE\Desktop\C#project\第一个程序\03变量\bin\Debug\03练习.exe
+C:\Users\REGGIE\Desktop\C#project\第一个程序\03变量\bin\Debug\03练习.pdb
+C:\Users\REGGIE\Desktop\C#project\第一个程序\03变量\obj\Debug\03变量.csprojResolveAssemblyReference.cache
+C:\Users\REGGIE\Desktop\C#project\第一个程序\03变量\obj\Debug\03练习.exe
+C:\Users\REGGIE\Desktop\C#project\第一个程序\03变量\obj\Debug\03练习.pdb

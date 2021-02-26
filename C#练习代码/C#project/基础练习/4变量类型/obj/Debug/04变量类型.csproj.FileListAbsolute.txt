@@ -1,0 +1,11 @@
+C:\Users\REGGIE\Desktop\C#project\第一个程序\04变量类型\bin\Debug\04变量类型.exe.config
+C:\Users\REGGIE\Desktop\C#project\第一个程序\04变量类型\bin\Debug\04变量类型.exe
+C:\Users\REGGIE\Desktop\C#project\第一个程序\04变量类型\bin\Debug\04变量类型.pdb
+C:\Users\REGGIE\Desktop\C#project\第一个程序\04变量类型\obj\Debug\04变量类型.exe
+C:\Users\REGGIE\Desktop\C#project\第一个程序\04变量类型\obj\Debug\04变量类型.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\bin\Debug\04变量类型.exe.config
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\obj\Debug\04变量类型.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\obj\Debug\04变量类型.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\bin\Debug\04变量类型.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\bin\Debug\04变量类型.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\obj\Debug\04变量类型.csprojResolveAssemblyReference.cache

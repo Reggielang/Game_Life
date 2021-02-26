@@ -1,0 +1,6 @@
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\加加和减减\bin\Debug\加加和减减.exe.config
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\加加和减减\bin\Debug\加加和减减.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\加加和减减\bin\Debug\加加和减减.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\加加和减减\obj\Debug\加加和减减.exe
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\加加和减减\obj\Debug\加加和减减.pdb
+C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\加加和减减\obj\Debug\加加和减减.csprojResolveAssemblyReference.cache
