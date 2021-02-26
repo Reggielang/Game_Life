@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-11关系运算符和逻辑运算符",
+      "appliesTo": "11关系运算符和逻辑运算符/",
+      "type": "launch"
+    }
+  ]
+}

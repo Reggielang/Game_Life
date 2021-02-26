@@ -1,0 +1,14 @@
+E:\Game_Life\C#练习代码\基础练习\新建文件夹\12逻辑运算符练习\bin\Debug\12逻辑运算符练习.exe.config
+E:\Game_Life\C#练习代码\基础练习\新建文件夹\12逻辑运算符练习\bin\Debug\12逻辑运算符练习.exe
+E:\Game_Life\C#练习代码\基础练习\新建文件夹\12逻辑运算符练习\bin\Debug\12逻辑运算符练习.pdb
+E:\Game_Life\C#练习代码\基础练习\新建文件夹\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.csprojAssemblyReference.cache
+E:\Game_Life\C#练习代码\基础练习\新建文件夹\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\新建文件夹\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.exe
+E:\Game_Life\C#练习代码\基础练习\新建文件夹\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.pdb
+E:\Game_Life\C#练习代码\基础练习\12逻辑运算符练习\12逻辑运算符练习\bin\Debug\12逻辑运算符练习.exe.config
+E:\Game_Life\C#练习代码\基础练习\12逻辑运算符练习\12逻辑运算符练习\bin\Debug\12逻辑运算符练习.exe
+E:\Game_Life\C#练习代码\基础练习\12逻辑运算符练习\12逻辑运算符练习\bin\Debug\12逻辑运算符练习.pdb
+E:\Game_Life\C#练习代码\基础练习\12逻辑运算符练习\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.csprojAssemblyReference.cache
+E:\Game_Life\C#练习代码\基础练习\12逻辑运算符练习\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\12逻辑运算符练习\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.exe
+E:\Game_Life\C#练习代码\基础练习\12逻辑运算符练习\12逻辑运算符练习\obj\Debug\12逻辑运算符练习.pdb
