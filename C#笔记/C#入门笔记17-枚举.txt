@@ -1,0 +1,25 @@
+枚举是一组命名整型常量。枚举类型是使用 enum 关键字声明的。
+
+C# 枚举是值类型。换句话说，枚举包含自己的值，且不能继承或传递继承。
+
+声明枚举的一般语法：
+
+enum <enum_name>
+{ 
+    enumeration list 
+};
+
+using System;
+
+public class EnumTest
+{
+    enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
+
+    static void Main()
+    {
+        int x = (int)Day.Sun;
+        int y = (int)Day.Fri;
+        Console.WriteLine("Sun = {0}", x);
+        Console.WriteLine("Fri = {0}", y);
+    }
+}
