@@ -1,0 +1,6 @@
+E:\Game_Life\C#练习代码\基础练习\21调试代码\bin\Debug\21调试代码.exe.config
+E:\Game_Life\C#练习代码\基础练习\21调试代码\bin\Debug\21调试代码.exe
+E:\Game_Life\C#练习代码\基础练习\21调试代码\bin\Debug\21调试代码.pdb
+E:\Game_Life\C#练习代码\基础练习\21调试代码\obj\Debug\21调试代码.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\21调试代码\obj\Debug\21调试代码.exe
+E:\Game_Life\C#练习代码\基础练习\21调试代码\obj\Debug\21调试代码.pdb

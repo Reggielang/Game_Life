@@ -1,0 +1,7 @@
+E:\Game_Life\C#练习代码\基础练习\22数组基本语法\bin\Debug\22数组基本语法.exe.config
+E:\Game_Life\C#练习代码\基础练习\22数组基本语法\bin\Debug\22数组基本语法.exe
+E:\Game_Life\C#练习代码\基础练习\22数组基本语法\bin\Debug\22数组基本语法.pdb
+E:\Game_Life\C#练习代码\基础练习\22数组基本语法\obj\Debug\22数组基本语法.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\22数组基本语法\obj\Debug\22数组基本语法.exe
+E:\Game_Life\C#练习代码\基础练习\22数组基本语法\obj\Debug\22数组基本语法.pdb
+E:\Game_Life\C#练习代码\基础练习\22数组基本语法\obj\Debug\22数组基本语法.csprojAssemblyReference.cache
