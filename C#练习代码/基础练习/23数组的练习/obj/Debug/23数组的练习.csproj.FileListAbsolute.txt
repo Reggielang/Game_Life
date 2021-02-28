@@ -1,0 +1,7 @@
+E:\Game_Life\C#练习代码\基础练习\23数组的练习\obj\Debug\23数组的练习.csprojAssemblyReference.cache
+E:\Game_Life\C#练习代码\基础练习\23数组的练习\obj\Debug\23数组的练习.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\23数组的练习\bin\Debug\23数组的练习.exe.config
+E:\Game_Life\C#练习代码\基础练习\23数组的练习\bin\Debug\23数组的练习.exe
+E:\Game_Life\C#练习代码\基础练习\23数组的练习\bin\Debug\23数组的练习.pdb
+E:\Game_Life\C#练习代码\基础练习\23数组的练习\obj\Debug\23数组的练习.exe
+E:\Game_Life\C#练习代码\基础练习\23数组的练习\obj\Debug\23数组的练习.pdb

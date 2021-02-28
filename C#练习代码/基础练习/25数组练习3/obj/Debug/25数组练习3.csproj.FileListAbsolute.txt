@@ -1,0 +1,7 @@
+E:\Game_Life\C#练习代码\基础练习\25数组练习3\bin\Debug\25数组练习3.exe.config
+E:\Game_Life\C#练习代码\基础练习\25数组练习3\bin\Debug\25数组练习3.exe
+E:\Game_Life\C#练习代码\基础练习\25数组练习3\bin\Debug\25数组练习3.pdb
+E:\Game_Life\C#练习代码\基础练习\25数组练习3\obj\Debug\25数组练习3.csprojAssemblyReference.cache
+E:\Game_Life\C#练习代码\基础练习\25数组练习3\obj\Debug\25数组练习3.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\25数组练习3\obj\Debug\25数组练习3.exe
+E:\Game_Life\C#练习代码\基础练习\25数组练习3\obj\Debug\25数组练习3.pdb

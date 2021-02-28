@@ -1,0 +1,7 @@
+E:\Game_Life\C#练习代码\基础练习\29 out参数\bin\Debug\29 out参数.exe.config
+E:\Game_Life\C#练习代码\基础练习\29 out参数\bin\Debug\29 out参数.exe
+E:\Game_Life\C#练习代码\基础练习\29 out参数\bin\Debug\29 out参数.pdb
+E:\Game_Life\C#练习代码\基础练习\29 out参数\obj\Debug\29 out参数.csprojAssemblyReference.cache
+E:\Game_Life\C#练习代码\基础练习\29 out参数\obj\Debug\29 out参数.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\29 out参数\obj\Debug\29 out参数.exe
+E:\Game_Life\C#练习代码\基础练习\29 out参数\obj\Debug\29 out参数.pdb

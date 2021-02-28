@@ -1,0 +1,6 @@
+E:\Game_Life\C#练习代码\基础练习\28形参和实参\bin\Debug\28形参和实参.exe.config
+E:\Game_Life\C#练习代码\基础练习\28形参和实参\bin\Debug\28形参和实参.exe
+E:\Game_Life\C#练习代码\基础练习\28形参和实参\bin\Debug\28形参和实参.pdb
+E:\Game_Life\C#练习代码\基础练习\28形参和实参\obj\Debug\28形参和实参.csproj.CoreCompileInputs.cache
+E:\Game_Life\C#练习代码\基础练习\28形参和实参\obj\Debug\28形参和实参.exe
+E:\Game_Life\C#练习代码\基础练习\28形参和实参\obj\Debug\28形参和实参.pdb
