@@ -18,8 +18,6 @@ namespace _19枚举类型
         {
             Gender gender = Gender.男;
             Gender gender1 = Gender.女;
-
-
         }
     }
 }

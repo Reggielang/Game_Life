@@ -3,3 +3,6 @@ C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\convert类型转�
 C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\convert类型转换\bin\Debug\convert类型转换.pdb
 C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\convert类型转换\obj\Debug\convert类型转换.exe
 C:\Users\REGGIE\Desktop\C#project\基础练习\04变量类型\convert类型转换\obj\Debug\convert类型转换.pdb
+C:\Users\REGGIE\Desktop\Game_Life\C#练习代码\基础练习\10convert类型转换\bin\Debug\convert类型转换.exe.config
+C:\Users\REGGIE\Desktop\Game_Life\C#练习代码\基础练习\10convert类型转换\obj\Debug\convert类型转换.exe
+C:\Users\REGGIE\Desktop\Game_Life\C#练习代码\基础练习\10convert类型转换\obj\Debug\convert类型转换.pdb

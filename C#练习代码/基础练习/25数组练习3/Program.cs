@@ -14,11 +14,11 @@ namespace _25数组练习3
             string[] name = { "小花", "小明", "小草", "小狗" , "小阿" };
             //思路，通过一个循环获得每个元素，然后把每个元素累加到一个字符串当中
             string namelist = null; //null !=空
-            for (int i = 0; i < name.Length-1; i++)
+            for (int i = 0; i < name.Length-1; i++) //name.Length-1 会循环到倒数第二个值停止
             {
                 namelist += name[i] + "|";
             }
-            Console.WriteLine(namelist+namelist[namelist.Length-1]);
+            Console.WriteLine(namelist+namelist[namelist.Length-1]); //加上最后一个值
             Console.ReadKey();
 
             //数组元素是正数则这个位置的元素加1，负数则减1，0则不变。
@@ -34,7 +34,7 @@ namespace _25数组练习3
                 {
                     number[i] -= 1;
                 }
-                else
+                else // 可以不要这个判断
                 {
                     number[i] = number[i];
                 }

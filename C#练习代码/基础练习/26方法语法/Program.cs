@@ -32,7 +32,7 @@ namespace _26方法语法
         //输出两个数的和
         public static int Sum(int a, int b) 
         {
-             int c = a + b;
+             int c = a + b; //c  创建一个新的变量来接受函数代码进行操作之后的值
              return c; // 返回要返回的值
         }
     }

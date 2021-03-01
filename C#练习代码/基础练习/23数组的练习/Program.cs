@@ -17,7 +17,7 @@ namespace _23数组的练习
             int min = number[0]; //假如数组中的一个数是最小值
             int sum = 0; //存储数组的总和
             for (int i = 0; i < number.Length; i++)
-			{
+	{
                 if (number[i]>max)
 	            {
                     max = number[i];
@@ -27,7 +27,7 @@ namespace _23数组的练习
                     min = number[i];
 	            }
                 sum+=number[i];
-			}
+	}
             Console.WriteLine("数组的最大值是{0}，最小值是{1}，总和是{2}，平均值是{3}",max,min,sum,sum/number.Length);
             Console.ReadKey();
         }

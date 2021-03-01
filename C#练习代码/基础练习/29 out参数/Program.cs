@@ -20,7 +20,7 @@ namespace _29_out参数
             Console.ReadKey();
         }
         //在方法中存储两个变量，和两个变量的和与平均值
-        //out 函数外可以不为变量赋值，但函数内必须为其赋值 同时形参和实参都必须加是关键字
+        //out 函数外可以不为变量赋值，但函数内必须为其赋值 同时形参和实参都必须加out关键字
         public static void Sum(out int a,out int b, out int sum, out int avg, out string i) 
         {
             a = 5; //返回值和参数不是一回事
