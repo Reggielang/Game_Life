@@ -30,7 +30,7 @@ namespace _4_构造函数
             //person2.Name = "B";
             //person2.Age = 19;
             //person2.Gender = '女';
-            person2.Say();
+            person3.Say();
             Console.ReadKey();
 
             //3 类当中会创建一个默认的无参数的构造函数，当写一个新的构造函数，不管有参还是无参，默认的构造函数都会消失

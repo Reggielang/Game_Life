@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Person.cs" />
+    <Compile Include="Personfive.cs" />
     <Compile Include="Personfour.cs" />
     <Compile Include="Personthr.cs" />
     <Compile Include="Persontwo.cs" />

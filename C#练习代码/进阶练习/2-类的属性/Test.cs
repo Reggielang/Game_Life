@@ -20,9 +20,9 @@ namespace _2_类的属性
                 {
                     _module = "就算不是C#，也必须是C#";
                 }
-                return _module; //进行了一个判断，那么需要返回最后的值
+                return _module; //进行了一个判断，return返回最后的值
             }
-            set { _module = value; }
+            set { _module = value; } //上面获得的属性值，赋值给字段
         }
 
 
@@ -37,7 +37,7 @@ namespace _2_类的属性
                 {
                   value = 99.9999; //只要_mark 都返回99.9999
                 }
-                _mark = value; //上面进行了判断，那么需要用字段来接受value的值
+                _mark = value; //上面进行了判断，需要用字段来接受value的值
             }
         }
 

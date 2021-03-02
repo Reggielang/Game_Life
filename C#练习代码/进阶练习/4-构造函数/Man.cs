@@ -16,7 +16,7 @@ namespace _4_构造函数
         
         //构造函数 帮助我们初始化对象 给对象的每个属性依次的赋值
         //构造函数 没有返回值，连void都没有
-        //构造函数的名称必须跟类名一样
+        //构造函数的名称必须跟类名一样！
         //例如 public Man(){}
         public Man(string _name, int _age, char _gender)
         {

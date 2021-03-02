@@ -13,7 +13,7 @@ namespace _10_继承练习
             //通过this传入子类的私有函数
             this.Work = work;
         }
-        //私有字段调用父类的构造函数
+        //私有字段传入构造函数
         private string _work;
         public string Work 
         {

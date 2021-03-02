@@ -45,7 +45,7 @@ namespace _2_类的属性
 
         public void Hobby()
         {
-            Console.WriteLine("我的名字是{0}，我的年龄是{1}，我的性别是{2},爱好，看看电视！", _name, Age, Gender);
+            Console.WriteLine("我的名字是{0}，我的年龄是{1}，我的性别是{2},爱好是看看电视！", Name, Age, Gender);
         }
     }
 }

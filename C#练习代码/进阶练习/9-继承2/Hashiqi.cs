@@ -15,7 +15,7 @@ namespace _9_继承2
         { 
             this.Iq=iq;
         }
-        //子类的私有字段也可以传入父类的构造函数
+        //子类的私有字段也可以传入构造函数
         private int _iq;
 
         public int Iq

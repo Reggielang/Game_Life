@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace _8_继承
 {
      class Hashiqi:Wolf 
-
     {
         public void IQ()
         {

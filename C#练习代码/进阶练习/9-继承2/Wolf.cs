@@ -12,7 +12,7 @@ namespace _9_继承2
         //子类就调用不到了，所以子类会报错。
 
         //解决办法： 1在父类中重新写一个无参数的构造函数，如下所示 //最好不要用
-        //在子类中显示的调用父类的构造函数，使用关键字：base()
+        //在子类中显示的调用父类的构造函数，使用关键字  :base()
         public Wolf(int age,char gender,string name)
          {
             this.Age = age;
