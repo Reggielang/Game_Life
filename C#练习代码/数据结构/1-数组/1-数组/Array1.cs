@@ -6,21 +6,21 @@ using System.Threading.Tasks;
 
 namespace _1_数组
 {
-    class Array1
+    class Array1<E>
     {
-        private int[] data; //数组的长度
+        private E[] data; //数组的长度
         private int N; //数组的元素个数
 
         public Array1(int capacity)
         {
-            data = new int[capacity];
+            data = new E[capacity];
             N = 0;
         }
 
         //public Array1() : this(10) { }
         public Array1()
         {
-            data = new int[10];
+            data = new E[10];
             N = 0;
         }
 
@@ -42,7 +42,7 @@ namespace _1_数组
         }
 
         //指定位置的添加
-        public void Add(int index, int e)
+        public void Add(int index, E e)
         {
             if (index < 0 || index > N)
             {
@@ -61,19 +61,19 @@ namespace _1_数组
             N++;
         }
         //从数组容量的最后开始添加
-        public void AddLast(int e)
+        public void AddLast(E e)
         {
             Add(N, e);
         }
         ////从数组容量的开始开始添加
-        public void AddFirst(int e)
+        public void AddFirst(E e)
         {
             Add(0, e);
         }
 
 
         //查找数组元素
-        public int Get(int index)
+        public E Get(int index)
         {
             if (index < 0||index >= N)
             {
@@ -82,18 +82,18 @@ namespace _1_数组
             }
             return data[index];
         }
-        public int GetFirst()
+        public E GetFirst()
         {
             return Get(0);
         }
 
-        public int GetLast()
+        public E GetLast()
         {
             return Get(N - 1);
         }
 
         //修改数组元素
-        public void Set(int index, int newE)
+        public void Set(int index, E newE)
         {
             if (index<0||index >=N)
             {
@@ -107,7 +107,7 @@ namespace _1_数组
         {
             for (int i = 0; i < N; i++)
             {
-                if (data[i]==e)
+                if (data[i].Equals(e))
                 {
                     return true;
                 }
@@ -119,7 +119,7 @@ namespace _1_数组
         {
             for (int i = 0; i < N; i++)
             {
-                if (data[i] ==e)
+                if (data[i].Equals(e))
                 {
                     return i;
                 }
@@ -128,14 +128,14 @@ namespace _1_数组
         }
 
         //删除数组元素 --实际上就是把删除元素的周围数据往前平移，然后再让最后位置的元素等于0
-        public int RemoveAt(int index)
+        public E RemoveAt(int index)
         {
             if (index<0||index>=N)
             {
                 throw new ArgumentException("索引超出数组界限");
             }
 
-            int del = data[index];
+            E del = data[index];
 
             for (int i = index + 1; i <= N-1; i++)
             {
@@ -143,7 +143,7 @@ namespace _1_数组
             }
 
             N--;
-            data[N] = default(int);
+            data[N] = default(E);
 
             if (N==data.Length/4)
             {
@@ -153,11 +153,11 @@ namespace _1_数组
             return del;
           }
 
-        public int RemoveFirst()
+        public E RemoveFirst()
         {
             return RemoveAt(0);
         }
-        public int RemoveLast()
+        public E RemoveLast()
         {
             return RemoveAt(N - 1);
         }
@@ -172,7 +172,7 @@ namespace _1_数组
 
         private void ResetCapacity(int newCapacity)
             {
-            int[] newData = new int[newCapacity];
+            E[] newData = new E[newCapacity];
             for (int i = 0; i < N; i++)
             {
                 newData[i] = data[i];

@@ -42,51 +42,67 @@ namespace _1_数组
 
             //实现数组
 
-            Array1 a = new Array1(20);
-            for (int i = 0; i < 10; i++)
-            {
-                a.AddLast(i);
-            }
-            Console.WriteLine(a);
-
-            a.AddFirst(66);
-            Console.WriteLine(a);
-
-            a.Add(2, 77);
-            Console.WriteLine(a);
-
-
-            //Console.WriteLine(a.GetFirst());
-            //Console.WriteLine(a.GetLast());
-            //Console.WriteLine(a.Get(0));
-
-            //a.Set(1, 1000);
+            //Array1 a = new Array1(20);
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    a.AddLast(i);
+            //}
             //Console.WriteLine(a);
 
-            //[66, 1000, 77, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-            a.RemoveAt(2);
-            a.RemoveFirst();
-            a.RemoveLast();
-            a.Remove(2);
-            Console.WriteLine(a);
+            //a.AddFirst(66);
+            //Console.WriteLine(a);
 
-            Array1 b = new Array1(10);
-            for (int i = 0; i < 10; i++)
+            //a.Add(2, 77);
+            //Console.WriteLine(a);
+
+
+            ////Console.WriteLine(a.GetFirst());
+            ////Console.WriteLine(a.GetLast());
+            ////Console.WriteLine(a.Get(0));
+
+            ////a.Set(1, 1000);
+            ////Console.WriteLine(a);
+
+            ////[66, 1000, 77, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+            //a.RemoveAt(2);
+            //a.RemoveFirst();
+            //a.RemoveLast();
+            //a.Remove(2);
+            //Console.WriteLine(a);
+
+            //Array1 b = new Array1(10);
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    b.AddLast(i);
+            //}
+            //Console.WriteLine(b);
+
+            //b.AddLast(55);
+            //Console.WriteLine(b);
+
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    b.RemoveLast();
+            //    Console.WriteLine(b);
+            //}
+
+
+            int[] n = { 1, 2, 3, 4, 5, 6, 7 };
+            Array1<int> x = new Array1<int>();
+            for (int i = 0; i < n.Length; i++)
             {
-                b.AddLast(i);
+                x.AddLast(n[i]);
             }
-            Console.WriteLine(b);
+            Console.WriteLine(x);
 
-            b.AddLast(55);
-            Console.WriteLine(b);
+            string[] s = { "a", "b", "c", "d", "e" };
+            Array1<string> a2 = new Array1<string>();
 
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < s.Length; i++)
             {
-                b.RemoveLast();
-                Console.WriteLine(b);
+                a2.AddLast(s[i]);
             }
-
-
+            Console.WriteLine(a2);
             Console.Read();
 
         }
