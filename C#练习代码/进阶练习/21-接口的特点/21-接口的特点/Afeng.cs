@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _21_接口的特点
 {
-    //但一个类继承了类和接口，类必须在接口前面
+    //当一个类继承了类和接口，类必须在接口前面
     class Afeng : Person,ISpeak
     {
         public void Eat()

@@ -15,11 +15,11 @@ namespace _20_接口
         //接口中可以用自动属性，自动属性会自动添加字段
         //接口中本质上只能有方法
          void GameMark();
-        string _gender //自动属性
-        {
-            get;
-            set;
-        }
+        //string _gender //自动属性
+        //{
+        //    get;
+        //    set;
+        //}
         //接口使用interface关键字，没有class， 接口名一般以I开头进行书写
 
     }
