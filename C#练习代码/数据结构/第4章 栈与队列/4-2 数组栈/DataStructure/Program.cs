@@ -13,7 +13,6 @@ namespace DataStructure
                 
         static void Main(string[] args)
         {
-
             Array1Stack<int> stack = new Array1Stack<int>();
             for (int i = 0; i < 5; i++)
             {
@@ -24,7 +23,7 @@ namespace DataStructure
             stack.Pop();
             Console.WriteLine(stack);
 
-            Console.Read();
+            Console.ReadKey();
         }
     }
 }
