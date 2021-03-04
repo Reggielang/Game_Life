@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "接球游戏", "Assembly-CSharp-firstpass.csproj", "{DBBF62BB-19DE-CD93-31C7-E94AEED62FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "接球游戏", "Assembly-CSharp.csproj", "{990EC72F-CA0D-618F-BD39-D54C7EBFD711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "接球游戏", "Assembly-CSharp-Editor-firstpass.csproj", "{0F68348E-5A02-78E7-C374-B7D1FEC4AB43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBBF62BB-19DE-CD93-31C7-E94AEED62FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBF62BB-19DE-CD93-31C7-E94AEED62FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBF62BB-19DE-CD93-31C7-E94AEED62FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBF62BB-19DE-CD93-31C7-E94AEED62FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990EC72F-CA0D-618F-BD39-D54C7EBFD711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990EC72F-CA0D-618F-BD39-D54C7EBFD711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990EC72F-CA0D-618F-BD39-D54C7EBFD711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990EC72F-CA0D-618F-BD39-D54C7EBFD711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F68348E-5A02-78E7-C374-B7D1FEC4AB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F68348E-5A02-78E7-C374-B7D1FEC4AB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F68348E-5A02-78E7-C374-B7D1FEC4AB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F68348E-5A02-78E7-C374-B7D1FEC4AB43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
