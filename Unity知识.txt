@@ -11,3 +11,5 @@ Debug.Log("");
 print();
 
 5.Unity 中所有继承了MonoBehaviour的类都不可以被实例化。Unity会自动创建实例。
+
+6.脚本是游戏物体的一部分，控制谁脚本就在挂载在谁身上。
