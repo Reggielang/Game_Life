@@ -1,0 +1,44 @@
+二分查找算法： 只能对有序排列进行高效查找 （排序算法的作用）
+
+每次查找会把数据分为一半
+L 数组中第一个元素的位置
+R数组中最后一个元素的位置
+
+ class TestSearch
+    {
+        //二分查找法，在有序数组arr中，查找target
+        //如果找到target，返回相应的索引index
+        //如果没有找到target，返回-1
+        public static int BinarySearch(int[] arr,int target)
+        {
+            //在[l...r]范围里寻找target
+            int l = 0;
+            int r = arr.Length - 1;
+
+            while (l <= r)
+            {
+                //int mid = (r + l) / 2;
+                int mid = l + (r - l) / 2;
+
+                if (target < arr[mid])
+                    r = mid - 1;    //在arr[l...mid-1]查找target
+                else if (target > arr[mid])
+                    l = mid + 1;    //在arr[mid+1...r]查找target
+                else
+                    return mid;     //找到target，并返回索引
+            }
+
+            return -1;
+        }
+    }
+
+顺序查找法 最坏时间复杂度。 也就是对于未命中查找的情况，需要遍历所有的元素查询。
+二分查找法 最坏的时间复杂度。 也就是对于未命中查找的情况。每次比较将数据规模缩小一半。
+
+例如 对于15个元素使用顺序查找最多进行了15次比较
+	对于15个元素使用二分查找最多进行4次比较
+Log2 15 =4
+对于N个元素使用二分查找最多进行log2N次比较
+顺序查找O（N）  二分查找（logN）
+
+O(1) < O(logN) < O(N)
