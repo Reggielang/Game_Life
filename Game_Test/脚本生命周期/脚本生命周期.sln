@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "脚本生命周期", "Assembly-CSharp.csproj", "{0817A77A-7556-1CEE-0F69-6DCA8E4CA3F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0817A77A-7556-1CEE-0F69-6DCA8E4CA3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0817A77A-7556-1CEE-0F69-6DCA8E4CA3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0817A77A-7556-1CEE-0F69-6DCA8E4CA3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0817A77A-7556-1CEE-0F69-6DCA8E4CA3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

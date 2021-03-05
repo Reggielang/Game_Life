@@ -21,3 +21,13 @@ OnCollisionExit(Collision)在碰撞结束时调用，在一次碰撞过程中只
 
 OnCollisionStay(Collision)在碰撞进行中，会持续的调用该方法。
 
+
+8.Invoke延迟调用。
+
+9.实例化预制体
+
+10. 射线 --打砖块
+
+11.脚本生命周期
+Awake-OnEable-Start-FixedUpdate-Update-LateUpdate-OnGUI-Reset-OnDisable-OnDestroy
+
