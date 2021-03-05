@@ -28,14 +28,16 @@ namespace DataStructure
 
         static void Main(string[] args)
         {
-            int N = 200000;
+            int N = 100000;
 
-            //数组队列
-            Array1Queue<int> array1Queue = new Array1Queue<int>();
-            long t1 = TestQueue(array1Queue, N);
-            Console.WriteLine("Array1Queue'time: " + t1 + "ms");
+            //数组队列 --由于底层是数组，所以需要频繁的进行数组元素的迁移，覆盖
+            //所以是非常耗时的
+            //Array1Queue<int> array1Queue = new Array1Queue<int>();
+            //long t1 = TestQueue(array1Queue, N);
+            //Console.WriteLine("Array1Queue'time: " + t1 + "ms");
 
             //循环队列
+
             Array2Queue<int> array2Queue = new Array2Queue<int>();
             long t2 = TestQueue(array2Queue, N);
             Console.WriteLine("Array2Queue'time: " + t2 + "ms");

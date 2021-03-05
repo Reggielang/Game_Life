@@ -27,7 +27,7 @@ namespace DataStructure
             return list.RemoveFirst();
         }
 
-        //O（1）
+        //O（n）
         public void Enqueue(E e)
         {
             list.AddLast(e);

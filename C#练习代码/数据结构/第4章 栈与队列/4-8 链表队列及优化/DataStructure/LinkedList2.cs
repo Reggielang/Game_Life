@@ -50,7 +50,6 @@ namespace DataStructure
         public void AddLast(E e)
         {
             Node node = new Node(e);
-
             if (IsEmpty)
             {
                 head = node;
@@ -60,34 +59,36 @@ namespace DataStructure
             {
                 tail.next = node;
                 tail = node;
+
             }
             N++;
-        }
 
+        }
         public E RemoveFirst()
         {
             if (IsEmpty)
-                throw new InvalidOperationException("链表为空");
-
+            {
+                throw new ArgumentException("链表为空");
+            }
             E e = head.e;
             head = head.next;
-
             N--;
-
-            if (head == null)
+            if (head ==null)
+            {
                 tail = null;
-
+            }
             return e;
         }
-
         public E GetFirst()
         {
             if (IsEmpty)
-                throw new InvalidOperationException("链表为空");
-
+            {
+                throw new ArgumentException("链表为空");
+            }
             return head.e;
         }
 
+        //打印链表
         public override string ToString()
         {
             StringBuilder res = new StringBuilder();

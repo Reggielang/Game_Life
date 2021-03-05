@@ -27,12 +27,12 @@ namespace DataStructure
         {
             int N = 100000;
 
-            //O(n^2) 只有头指针的链表
+            //O(n^2) 只有头指针的链表队列
             LinkedList1Queue<int> linkedList1Queue = new LinkedList1Queue<int>();
             long t1 = TestQueue(linkedList1Queue, N);
             Console.WriteLine("linkedList1Queue'time: " + t1 + "ms");
 
-            //O(n)  具备头和尾指针的链表
+            //O(n)  具备头和尾指针的链表队列
             LinkedList2Queue<int> linkedList2Queue = new LinkedList2Queue<int>();
             long t2 = TestQueue(linkedList2Queue, N);
             Console.WriteLine("linkedList2Queue'time: " + t2 + "ms");

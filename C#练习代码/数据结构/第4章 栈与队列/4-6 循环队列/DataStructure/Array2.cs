@@ -30,6 +30,7 @@ namespace DataStructure
 
         public void AddLast(E e)
         {
+
             if (N == data.Length)
                 ResetCapacity(2 * data.Length);
 
@@ -41,7 +42,9 @@ namespace DataStructure
         public E RemoveFirst()
         {
             if (IsEmpty)
+            {
                 throw new InvalidOperationException("数组为空");
+            }
 
             E ret = data[first];
             data[first] = default(E);
@@ -58,8 +61,9 @@ namespace DataStructure
         public E GetFirst()
         {
             if (IsEmpty)
+            {
                 throw new InvalidOperationException("数组为空");
-
+            }
             return data[first];
         }
 
